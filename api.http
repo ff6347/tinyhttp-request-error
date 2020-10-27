@@ -1,0 +1,8 @@
+### does not work
+GET http://localhost:3000/cats/1/moods?foo=bar
+
+### works
+GET http://localhost:3000/cats/1/moods
+
+### works
+GET http://localhost:3000/cats?foo=bar
